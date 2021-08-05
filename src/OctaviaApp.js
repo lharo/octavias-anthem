@@ -1,9 +1,8 @@
 import React from 'react'
+import { AppRouter } from './components/routers/AppRouter'
 
 export const OctaviaApp = () => {
     return (
-        <div>
-            <h1> Octavia's Anthem </h1>
-        </div>
+        <AppRouter/>
     )
 }
