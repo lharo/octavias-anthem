@@ -14,6 +14,7 @@ export const RatingComponent = ({ rating, readOnly, name }) => {
                     <Rating
                         name= { `unique-rating${ name }` }
                         value={ value }
+                        precision={ 0.5 }
                         onChange={(event, newValue) => setValue(newValue)}
                     />
                 </Box>
@@ -22,7 +23,12 @@ export const RatingComponent = ({ rating, readOnly, name }) => {
             {
                 readOnly && 
                 <Box component="fieldset" mb={3} borderColor="transparent">
-                    <Rating name="read-only" value={ value } readOnly />
+                    <Rating 
+                        name="read-only" 
+                        value={ value } 
+                        precision={ 0.5 }
+                        readOnly 
+                    />
                 </Box>
             }
         </>
