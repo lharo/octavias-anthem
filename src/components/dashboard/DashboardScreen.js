@@ -13,10 +13,7 @@ export const DashboardScreen = () => {
             <TableComponent
                 columns= { columns }
                 data={ data }
-            >
-            </TableComponent>
-
-
+            />
         </>
     );
 }
