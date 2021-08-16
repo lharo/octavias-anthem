@@ -1,9 +1,19 @@
-import React from 'react'
+import React from 'react';
+import { TableComponent } from '../ui/Table/TableComponent';
+import { getStructuredDataByUserId } from '../../helpers/getStructuredDataByUserId';
+
 
 export const DashboardScreen = () => {
+
+    const columns = [ '#', 'Name', 'Artist', 'My Ranking', 'Global Ranking']
+    const data = getStructuredDataByUserId( 1 );
+
     return (
-        <div>
-            <h1> I am a Dashboard</h1>
-        </div>
-    )
+        <>
+            <TableComponent
+                columns= { columns }
+                data={ data }
+            />
+        </>
+    );
 }
