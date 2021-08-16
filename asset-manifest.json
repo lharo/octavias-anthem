@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/octavias-anthem/static/css/main.afd7172b.chunk.css",
+    "main.js": "/octavias-anthem/static/js/main.fcfcc877.chunk.js",
+    "main.js.map": "/octavias-anthem/static/js/main.fcfcc877.chunk.js.map",
+    "runtime-main.js": "/octavias-anthem/static/js/runtime-main.b7215db0.js",
+    "runtime-main.js.map": "/octavias-anthem/static/js/runtime-main.b7215db0.js.map",
+    "static/js/2.b61aa8c2.chunk.js": "/octavias-anthem/static/js/2.b61aa8c2.chunk.js",
+    "static/js/2.b61aa8c2.chunk.js.map": "/octavias-anthem/static/js/2.b61aa8c2.chunk.js.map",
+    "index.html": "/octavias-anthem/index.html",
+    "static/css/main.afd7172b.chunk.css.map": "/octavias-anthem/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.b61aa8c2.chunk.js.LICENSE.txt": "/octavias-anthem/static/js/2.b61aa8c2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7215db0.js",
+    "static/js/2.b61aa8c2.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.fcfcc877.chunk.js"
+  ]
+}
